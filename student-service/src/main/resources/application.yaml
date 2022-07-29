@@ -1,0 +1,13 @@
+#Configure the Server Port
+server:
+  port: 7002
+  
+spring:
+  application:
+   name: Student-SERVICE 
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/myhibdb
+    username: root
+    password: Patna@123
+
